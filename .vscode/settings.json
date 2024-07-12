@@ -1,0 +1,10 @@
+{
+  "editor.tabSize": 2,
+  "search.exclude": {
+    "package-lock.json": true
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit"
+  },
+  "editor.formatOnSave": true
+}
