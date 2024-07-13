@@ -3,8 +3,11 @@
   "search.exclude": {
     "package-lock.json": true
   },
+  "editor.formatOnSave": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": "explicit"
-  },
-  "editor.formatOnSave": true
+    "source.fixAll": "always",
+    "source.organizeImports": "always",
+    "source.sortMembers": "always",
+    "source.addMissingImports": "always"
+  }
 }
